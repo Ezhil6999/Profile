@@ -38,7 +38,7 @@ footer {
 }
 #home {
     position:sticky;
-    padding-top: 2cm;
+    padding-top: 2.5cm;
 }
 .portfolio-item {
     max-width: 10%; /* Ensures the image doesn't overflow its container */
