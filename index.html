@@ -1,96 +1,893 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Ezhil</title>
+    <meta name="description"
+        content="Ezhil Raj S - NLP/AI Engineer with 2+ years of experience in AI, Machine Learning, and Natural Language Processing">
+    <title>Ezhil Raj S | NLP/AI Engineer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-                <h1 style="text-align: center;position:relative; ">EZHIL RAJ
-                <section id="portfolio">
-                    <div class="portfolio-item">
-                        <img src="./assert/IMG_1999.JPG" alt="1.4 Years Experience">
-                        <!-- <p>Project description here.</p> -->
-                    </div>
-                    <!-- Repeat for other projects -->
-                </section>
-                </h1>
-                <h3 style="text-align: center;">NLP Engineer (1.5 years of Experience)</h3>
-                <h3 style="text-align: center;">Intrested in Learning New things</h3>
+    <!-- Navigation Header -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Ezhil<span class="gradient-text">Raj</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
-    <main>
-        <section id="home">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I am Ezhil Raj, NLP engineer in Vectone Mobile Solution. I have work experience in Speech to Text, Text to Speech, ChatBot,Virtual Trial Room, Smart Speaker, Speaker Diarization, Created RAG Framework and other Integration Process. </p>
-            <ul>
-                <li>Python-Library Known
-                    <ol>
-                        <li>Pytorch</li>
-                        <li>HuggingFace and Its Framework</li>
-                        <li>Tensorflow</li>
-                        <li>Other necessary Library for NLP and Image Processing</li>
-                        <li>LLM and RAG</li>
-                    </ol>
-                </li>
-                <li>Real-time Model Train
-                    <ol>
-                        <li>Peft-LLM model</li>
-                        <li>Wake word( audio classification )</li>
-                        <li>Virual Try On ( only implemented )</li>
-                        <li>Text Classification</li>
-                    </ol>
-                </li>
-                <li>Python-Transmitting protocol
-                    <ol>
-                        <li>UDP Websocket</li>
-                        <li>TCP Websocket</li>
-                       <li>SIP protocal</li> 
-                       <li>API</li>
-                       <li>Redis</li>
-                    </ol>
-                </li>
-                <li>Python-Concurrent running Protocol
-                    <ol>
-                        <li>asyncio</li>
-                        <li>Multi-Threading</li>
-                        <li>Multi-Processing</li>
-                        <li>Thread-pool</li>
-                        <li>Process-pool</li>
-                    </ol>
-                </li>
 
-            </ul>
-        <div class="resume-box">
-                <a href="./assert/Ezhil_aug_16-1.pdf" download>
-                    <div class="resume-content">
-                        <span>Download My Resume (PDF)</span>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <img src="./assert/IMG_1999.JPG" alt="Ezhil Raj S" class="hero-image">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Ezhil Raj S</h1>
+                <h2 class="hero-title">NLP/AI Engineer</h2>
+                <p class="hero-subtitle">Specializing in AI, Machine Learning & Natural Language Processing | 2+ Years
+                    Experience</p>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
                     </div>
-                </a>
-            </div>
-            <section id="contact">
-                <h2>Contact Me</h2>
-                <div class="contact-info">
-                    <a href="mailto:ezhil6999@gmail.com" target="_blank">
-                        <img src="./assert/mail.png" alt="Email Icon">
-                        <span>Email</span>
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Get In Touch
                     </a>
-                    <a href="https://www.linkedin.com/in/ezhil-raj-s-b535451a1/" target="_blank">
-                        <img src="./assert/Linedin.png" alt="LinkedIn Icon">
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="https://github.com/Ezhil6999" target="_blank">
-                        <img src="./assert/github.png" alt="GitHub Icon">
-                        <span>GitHub</span>
+                    <a href="./assert/EzhilrajS.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download Resume
                     </a>
                 </div>
-            </section>
-    </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>NLP/AI Engineer with a Passion for Innovation</h3>
+                    <p>I'm an AI Engineer with over 2 years of experience in developing and deploying cutting-edge AI
+                        solutions. My expertise spans across Speech-to-Text, Text-to-Speech, Chatbots, Virtual Trial
+                        Rooms, Smart Speakers, Speaker Diarization, and RAG Frameworks.</p>
+                    <p>I specialize in leveraging state-of-the-art deep learning libraries and frameworks to build
+                        scalable, production-ready NLP and AI applications that solve real-world problems.</p>
+                </div>
+                <div class="highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🚀</div>
+                        <div class="highlight-content">
+                            <h4>AI & NLP Specialist</h4>
+                            <p>Expert in PyTorch, TensorFlow, and Hugging Face Transformers for building advanced NLP
+                                models</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">💡</div>
+                        <div class="highlight-content">
+                            <h4>GenAI Enthusiast</h4>
+                            <p>Proficient in LangChain, LlamaIndex, and working with GPT, Claude, and Gemini models</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">⚡</div>
+                        <div class="highlight-content">
+                            <h4>Production-Ready Solutions</h4>
+                            <p>Experienced in deploying scalable AI systems using Docker, Redis, and various
+                                communication protocols</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2025 - Present</span>
+                        <h3>AI Engineer</h3>
+                        <div class="timeline-company">SynBrains Solution</div>
+                        <ul class="timeline-description">
+                            <li>Developing and deploying advanced AI solutions and machine learning models</li>
+                            <li>Building intelligent systems using state-of-the-art AI frameworks and technologies</li>
+                            <li>Implementing end-to-end AI pipelines for production environments</li>
+                            <li>Optimizing model performance and ensuring scalability of AI applications</li>
+                            <li>Working with cutting-edge GenAI tools and LLM frameworks</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-spacer"></div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-spacer"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">June 2023 - December 2024</span>
+                        <h3>NLP Engineer</h3>
+                        <div class="timeline-company">Vectone Mobile Solutions</div>
+                        <ul class="timeline-description">
+                            <li>Developed and deployed advanced NLP solutions including Speech-to-Text and
+                                Text-to-Speech systems</li>
+                            <li>Built intelligent chatbots and conversational AI systems using LLMs and RAG frameworks
+                            </li>
+                            <li>Implemented Smart Speaker systems with wake word detection and speaker diarization</li>
+                            <li>Created Virtual Trial Room applications leveraging computer vision and deep learning
+                            </li>
+                            <li>Optimized model performance through quantization and efficient deployment strategies
+                            </li>
+                            <li>Integrated various communication protocols (SIP, WebSocket, RESTful APIs) for real-time
+                                AI services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Agentic AI with MCP -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🤖</div>
+                        <span class="project-period">2024</span>
+                    </div>
+                    <h3>Agentic AI with MCP Integration</h3>
+                    <p>Developed an advanced agentic AI system with Model Context Protocol (MCP) tool integration,
+                        enabling autonomous AI agents to interact with external tools and services for complex task
+                        execution and decision-making.</p>
+                    <div class="project-tags">
+                        <span class="tag">Agentic AI</span>
+                        <span class="tag">MCP</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">Tool Integration</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+
+                <!-- Audio Meeting (Freelancing) -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎙️</div>
+                        <span class="project-period">Freelancing</span>
+                    </div>
+                    <h3>Audio Meeting Platform</h3>
+                    <p>Built a real-time audio meeting platform with React frontend, WebSocket for live communication,
+                        and API connectivity. Implemented meeting host/join functionality with meeting IDs, integrated
+                        VLLM-hosted Whisper model for speech recognition, and applied VAD (Voice Activity Detection) for
+                        efficient audio streaming.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">WebSocket</span>
+                        <span class="tag">Whisper</span>
+                        <span class="tag">VLLM</span>
+                        <span class="tag">VAD</span>
+                        <span class="tag">Real-time</span>
+                    </div>
+                    <div class="project-image">
+                        <img src="./assert/meeting_audio.png" alt="Audio Meeting Platform">
+                    </div>
+                </div>
+
+
+                <!-- Smart Speaker System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔊</div>
+                        <span class="project-period">2023-2024</span>
+                    </div>
+                    <h3>Smart Speaker System</h3>
+                    <p>Developed an intelligent smart speaker with advanced voice recognition, wake word detection, and
+                        natural language understanding capabilities. Integrated with various AI models for seamless
+                        voice interaction and smart home control.</p>
+                    <div class="project-tags">
+                        <span class="tag">Speech Recognition</span>
+                        <span class="tag">Wake Word</span>
+                        <span class="tag">NLU</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">IoT</span>
+                    </div>
+                </div>
+
+                <!-- Virtual Trial Room -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">👔</div>
+                        <span class="project-period">2023</span>
+                    </div>
+                    <h3>Virtual Trial Room</h3>
+                    <p>Created an AI-powered virtual trial room system using computer vision and deep learning to enable
+                        customers to virtually try on clothes, enhancing the online shopping experience with realistic
+                        garment visualization.</p>
+                    <div class="project-tags">
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">Image Processing</span>
+                    </div>
+                </div>
+
+                <!-- Wake Word Detection -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎤</div>
+                        <span class="project-period">2023</span>
+                    </div>
+                    <h3>Wake Word Detection</h3>
+                    <p>Built a robust wake word detection system using audio classification techniques with CNNs,
+                        enabling voice-activated features for smart devices with high accuracy and low latency for
+                        real-time performance.</p>
+                    <div class="project-tags">
+                        <span class="tag">Audio Classification</span>
+                        <span class="tag">CNN</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Real-time</span>
+                        <span class="tag">Edge AI</span>
+                    </div>
+                </div>
+
+                <!-- RAG Framework -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📚</div>
+                        <span class="project-period">2024</span>
+                    </div>
+                    <h3>RAG Framework</h3>
+                    <p>Developed a comprehensive Retrieval-Augmented Generation framework using LangChain and
+                        LlamaIndex, enabling intelligent question-answering systems with improved accuracy, context
+                        awareness, and document retrieval capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">LangChain</span>
+                        <span class="tag">LlamaIndex</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">Vector DB</span>
+                        <span class="tag">RAG</span>
+                    </div>
+                </div>
+
+                <!-- Conversational AI Chatbot -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">💬</div>
+                        <span class="project-period">2023-2024</span>
+                    </div>
+                    <h3>Conversational AI Chatbot</h3>
+                    <p>Designed and deployed production-grade chatbots with natural language understanding, context
+                        management, and multi-turn conversation capabilities using modern LLM techniques and fine-tuned
+                        models.</p>
+                    <div class="project-tags">
+                        <span class="tag">NLP</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">GPT</span>
+                        <span class="tag">API Integration</span>
+                        <span class="tag">Dialogue Systems</span>
+                    </div>
+                </div>
+
+                <!-- Speaker Diarization System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">👥</div>
+                        <span class="project-period">2023</span>
+                    </div>
+                    <h3>Speaker Diarization System</h3>
+                    <p>Implemented a speaker diarization system to identify and separate different speakers in audio
+                        recordings, useful for meeting transcription, interview analysis, and multi-speaker content
+                        processing.</p>
+                    <div class="project-tags">
+                        <span class="tag">Speech Processing</span>
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">Audio Analysis</span>
+                        <span class="tag">Speaker ID</span>
+                    </div>
+                </div>
+
+                <!-- Speech-to-Text System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎧</div>
+                        <span class="project-period">2023-2024</span>
+                    </div>
+                    <h3>Speech-to-Text System</h3>
+                    <p>Built high-accuracy speech recognition systems using Whisper and custom ASR models, supporting
+                        multiple languages with real-time transcription capabilities for various applications.</p>
+                    <div class="project-tags">
+                        <span class="tag">ASR</span>
+                        <span class="tag">Whisper</span>
+                        <span class="tag">Real-time</span>
+                        <span class="tag">Multi-language</span>
+                    </div>
+                </div>
+
+                <!-- Text-to-Speech System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔉</div>
+                        <span class="project-period">2023-2024</span>
+                    </div>
+                    <h3>Text-to-Speech System</h3>
+                    <p>Developed natural-sounding text-to-speech systems using Coqui-TTS and Bark-TTS, creating voice
+                        synthesis solutions for various applications including virtual assistants and accessibility
+                        tools.</p>
+                    <div class="project-tags">
+                        <span class="tag">TTS</span>
+                        <span class="tag">Coqui-TTS</span>
+                        <span class="tag">Bark-TTS</span>
+                        <span class="tag">Voice Synthesis</span>
+                    </div>
+                </div>
+
+                <!-- Fine-tuned LLM -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🧠</div>
+                        <span class="project-period">2024</span>
+                    </div>
+                    <h3>Fine-tuned LLM with PEFT</h3>
+                    <p>Fine-tuned large language models using Parameter-Efficient Fine-Tuning (PEFT) techniques
+                        including LoRA and QLoRA, optimizing models for specific tasks while maintaining computational
+                        efficiency.</p>
+                    <div class="project-tags">
+                        <span class="tag">PEFT</span>
+                        <span class="tag">LoRA</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">Fine-tuning</span>
+                        <span class="tag">Quantization</span>
+                    </div>
+                </div>
+
+                <!-- SIP Protocol Integration -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📞</div>
+                        <span class="project-period">2023-2024</span>
+                    </div>
+                    <h3>SIP Protocol Integration</h3>
+                    <p>Implemented SIP (Session Initiation Protocol) integration for real-time voice communication
+                        systems, enabling VoIP functionality with WebSocket and API connectivity for telecommunication
+                        applications.</p>
+                    <div class="project-tags">
+                        <span class="tag">SIP</span>
+                        <span class="tag">VoIP</span>
+                        <span class="tag">WebSocket</span>
+                        <span class="tag">Real-time</span>
+                        <span class="tag">Telecom</span>
+                    </div>
+                </div>
+
+                <!-- Image Classification -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🖼️</div>
+                        <span class="project-period">Jan 2024 - Mar 2024</span>
+                    </div>
+                    <h3>Classification Problems (Robotics)</h3>
+                    <p>Worked on both image and text classification tasks as part of a robotics project. The text
+                        classification focused on intent recognition, while the image classification involved detecting
+                        the presence of a helicoil. Implemented binary classification using a pretrained ResNet model
+                        for accurate detection and classification.</p>
+                    <div class="project-tags">
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">ResNet</span>
+                        <span class="tag">Intent Recognition</span>
+                        <span class="tag">Binary Classification</span>
+                        <span class="tag">Robotics</span>
+                    </div>
+                    <div class="project-image">
+                        <img src="./assert/image_classification.jpeg" alt="Image Classification Project">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><span class="category-icon">💻</span> Programming</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level">Basic</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon">🧠</span> Deep Learning</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PyTorch</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">TensorFlow</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Hugging Face</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon">🗣️</span> NLP & Speech</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ASR Models</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">TTS Models</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">LLM & RAG</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon">✨</span> GenAI Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">LangChain</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">LlamaIndex</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">GPT / Claude / Gemini</span>
+                                <span class="skill-level">Proficient</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Agentic AI</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon">🗄️</span> Databases</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PostgreSQL</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Redis</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 78%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon">⚡</span> Concurrency</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Asyncio</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Multiprocessing/Threading</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon">🔌</span> Protocols & Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SIP / WebSocket</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">RESTful APIs</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git / Docker</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education & Certifications</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-info">
+                        <h3>Bachelor of Engineering in ECE</h3>
+                        <div class="education-institution">Sethu Institute of Technology</div>
+                        <div class="education-year">2019 - 2023</div>
+                    </div>
+                    <div class="education-percentage">CGPA: 8.45</div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <h4>Generative AI Fundamentals</h4>
+                        <p>Google Cloud</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>LangChain for LLM Application Development</h4>
+                        <p>Deep Learning.AI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <p
+                style="text-align: center; color: var(--color-text-secondary); max-width: 600px; margin: 0 auto var(--space-2xl);">
+                I'm always interested in hearing about new opportunities and collaborations. Feel free to reach out!
+            </p>
+            <div class="contact-info">
+                <a href="mailto:ezhil6999@gmail.com" class="contact-card" target="_blank">
+                    <div class="contact-icon">
+                        <img src="./assert/mail.png" alt="Email">
+                    </div>
+                    <h4>Email</h4>
+                    <p>ezhil6999@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/ezhil-raj-s-b535451a1/" class="contact-card" target="_blank">
+                    <div class="contact-icon">
+                        <img src="./assert/Linedin.png" alt="LinkedIn">
+                    </div>
+                    <h4>LinkedIn</h4>
+                    <p>Connect with me</p>
+                </a>
+                <a href="https://github.com/Ezhil6999" class="contact-card" target="_blank">
+                    <div class="contact-icon">
+                        <img src="./assert/github.png" alt="GitHub">
+                    </div>
+                    <h4>GitHub</h4>
+                    <p>Check my projects</p>
+                </a>
+                <a href="https://leetcode.com/Ezhil6999" class="contact-card" target="_blank">
+                    <div class="contact-icon">
+                        <img src="./assert/leetcode.png" alt="LeetCode">
+                    </div>
+                    <h4>LeetCode</h4>
+                    <p>Coding profile</p>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4>Location</h4>
+                    <p>Erode, Tamil Nadu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© Thank you for visting my profile</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Ezhil<span class="gradient-text">Raj</span></div>
+                <p class="footer-text">© 2024 Ezhil Raj S. All rights reserved. | Built with passion for AI & Innovation
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/Ezhil6999" target="_blank" class="social-link">
+                        <img src="./assert/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ezhil-raj-s-b535451a1/" target="_blank" class="social-link">
+                        <img src="./assert/Linedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://leetcode.com/Ezhil6999" target="_blank" class="social-link">
+                        <img src="./assert/leetcode.png" alt="LeetCode">
+                    </a>
+                    <a href="mailto:ezhil6999@gmail.com" class="social-link">
+                        <img src="./assert/mail.png" alt="Email">
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript for Interactions -->
+    <script>
+        // Navigation Toggle
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when link is clicked
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Active navigation link on scroll
+        const sections = document.querySelectorAll('section');
+        const navLinksAll = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinksAll.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Scroll to top button
+        const scrollTop = document.getElementById('scrollTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        });
+
+        scrollTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Skill bars animation
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.querySelectorAll('.skill-item').forEach(item => {
+                        item.classList.add('animate');
+                    });
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.skill-category').forEach(category => {
+            observer.observe(category);
+        });
+
+        // Smooth scroll for all anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
