@@ -355,10 +355,17 @@ nav {
 .hero-subtitle {
   font-size: var(--font-size-lg);
   color: var(--color-text-muted);
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-md);
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero-socials {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .hero-stats {
@@ -1008,6 +1015,12 @@ footer {
   border-radius: var(--radius-md);
   transition: all var(--transition-base);
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-link i {
+  font-size: 1.5rem;
+  color: var(--color-text-primary);
+  transition: color var(--transition-fast);
 }
 
 .social-link img {
