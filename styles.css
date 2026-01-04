@@ -92,7 +92,12 @@ html {
 
 body {
   font-family: var(--font-family);
-  background: var(--gradient-dark);
+  background-color: #000000;
+  background-image:
+    radial-gradient(circle at 50% 0%, #2a2a2a 0%, transparent 75%),
+    linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, 0.03) 25%, rgba(255, 255, 255, 0.03) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.03) 75%, rgba(255, 255, 255, 0.03) 76%, transparent 77%, transparent),
+    linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, 0.03) 25%, rgba(255, 255, 255, 0.03) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.03) 75%, rgba(255, 255, 255, 0.03) 76%, transparent 77%, transparent);
+  background-size: 100% 100%, 50px 50px, 50px 50px;
   background-attachment: fixed;
   color: var(--color-text-primary);
   line-height: 1.6;
